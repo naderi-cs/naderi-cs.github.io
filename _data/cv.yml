@@ -1,0 +1,67 @@
+cv:
+  name: Abolfazl Naderi
+  label: Computer Science Student · Developer · System Administrator
+  email: a.naderiii44@gmail.com
+  location: Bushehr Province, Iran
+  image: ""
+  summary: Computer Science undergraduate with interests in artificial intelligence, computer systems, software engineering, and algorithms. Experienced in teaching foundational computer science and working with reliable infrastructure.
+
+  social_networks:
+    - network: LinkedIn
+      username: a-naderi
+
+  sections:
+    Education:
+      - institution: Vali-e-Asr University of Rafsanjan
+        location: Rafsanjan, Iran
+        area: Computer Science
+        studyType: Bachelor of Science
+        start_date: 2022
+        end_date: 2026
+        score: "GPA: 17.98/20.00 · Specialized courses: 19.01/20.00"
+        highlights:
+          - Ranked 1st among Computer Science students in the sixth-semester cohort (entry year 2022).
+          - Competitive Programming — member of the university ICPC team (2024–2025).
+
+    Experience:
+      - company: Self-employed
+        position: System Administrator
+        location: Remote
+        start_date: 2023-01
+        end_date: Present
+        highlights:
+          - Maintain system health and manage network infrastructure for clients.
+
+      - company: Vali-e-Asr University of Rafsanjan
+        position: Head Teaching Assistant
+        location: Rafsanjan, Iran
+        start_date: 2023-09
+        end_date: 2026-02
+        highlights:
+          - "Principles of Computer Systems (Fall 2025): supported students with core systems concepts, collaborated with the instructor on course delivery, and evaluated assignments."
+          - "Data Structures and Algorithms (Fall 2024): facilitated problem-solving sessions and assessed programming assignments."
+          - "Advanced Programming (Spring 2024): guided students through advanced paradigms and software development practices; conducted code reviews."
+          - "Basics of Computer Programming (Fall 2023): designed assignments and projects and provided personalized feedback."
+
+      - company: Scientific Association of Computer Science
+        position: Head of the Association
+        location: Rafsanjan, Iran
+        start_date: 2023-09
+        end_date: 2025-08
+        highlights:
+          - Led academic activities for the Computer Science student body.
+
+    Volunteering:
+      - company: OpenStreetMap Foundation
+        position: Volunteer Mapping
+        location: Remote
+        start_date: 2019-12
+        end_date: Present
+        highlights:
+          - Contribute geospatial data to the world's largest open-access mapping database.
+
+    Skills:
+      - name: Languages
+        keywords: "Java, Python, Go, Bash, RISC-V, SQL"
+      - name: Tools
+        keywords: "Git, Docker, Ansible, Grafana, HAProxy, Nginx, PostgreSQL, SQLite, Jupyter, LaTeX, Markdown, Obsidian"
