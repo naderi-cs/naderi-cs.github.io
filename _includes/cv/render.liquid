@@ -36,6 +36,26 @@
 
   <article>
     <div class="cv">
+      <style>
+        .cv .row > .date-column {
+          flex: 0 0 8rem;
+          max-width: 8rem;
+          transform: none;
+          width: 8rem;
+        }
+
+        .cv .row > .date-column + [class*="col-"] {
+          flex: 1 1 0;
+          max-width: calc(100% - 8rem);
+          min-width: 0;
+          margin-top: 0 !important;
+        }
+
+        .cv .date-column .location {
+          white-space: normal;
+          overflow-wrap: anywhere;
+        }
+      </style>
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}

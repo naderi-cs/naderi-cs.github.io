@@ -66,6 +66,10 @@ cv:
         keywords: "Unit Testing, FastAPI, JavaScript"
         label: Top Skills
         details: "Unit Testing, FastAPI, JavaScript"
+      - name: Languages
+        keywords: "Java, Python, Go, Bash, RISC-V, SQL"
+      - name: Tools
+        keywords: "Git, Docker, Ansible, Grafana, HAProxy, Nginx, PostgreSQL, SQLite, Jupyter, LaTeX, Markdown, Obsidian"
 
     Certificates:
       - name: Machine Learning Specialization
