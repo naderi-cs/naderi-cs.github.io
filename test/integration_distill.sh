@@ -27,7 +27,8 @@ layout: distill
 title: Distill integration fixture
 permalink: /blog/2021/distill/
 giscus_comments: true
-mermaid: true
+mermaid:
+  enabled: true
 tikzjax: true
 ---
 Temporary Distill post used by the integration test.
