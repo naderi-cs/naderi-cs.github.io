@@ -2,7 +2,7 @@
 layout: about
 title: bio
 permalink: /
-subtitle: Computer Science graduate student · Developer · System Administrator
+subtitle: Computer Science graduate student
 
 profile:
   align: right
