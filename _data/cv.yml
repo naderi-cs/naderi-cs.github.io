@@ -15,12 +15,14 @@ cv:
     Education:
       - institution: Persian Gulf University
         area: Artificial Intelligence
+        degree: Master of Science
         studyType: Master of Science
         start_date: 2026-09
 
       - institution: Vali-e-Asr University of Rafsanjan
         location: Rafsanjan, Kerman Province, Iran
         area: Computer Science
+        degree: Bachelor of Science
         studyType: Bachelor of Science
         start_date: 2022-09
         end_date: 2026-09
@@ -62,6 +64,8 @@ cv:
     Skills:
       - name: Top Skills
         keywords: "Unit Testing, FastAPI, JavaScript"
+        label: Top Skills
+        details: "Unit Testing, FastAPI, JavaScript"
 
     Certificates:
       - name: Machine Learning Specialization
