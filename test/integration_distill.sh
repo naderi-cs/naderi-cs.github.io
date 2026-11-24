@@ -4,11 +4,34 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+fixture_post="_posts/2021-01-01-distill-integration-$$.md"
+created_posts_dir=false
 
 cleanup() {
+  rm -f "${fixture_post}"
+  if [[ "${created_posts_dir}" == true ]]; then
+    rmdir _posts 2>/dev/null || true
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+if [[ ! -d _posts ]]; then
+  mkdir _posts
+  created_posts_dir=true
+fi
+
+cat >"${fixture_post}" <<'MARKDOWN'
+---
+layout: distill
+title: Distill integration fixture
+permalink: /blog/2021/distill/
+giscus_comments: true
+mermaid: true
+tikzjax: true
+---
+Temporary Distill post used by the integration test.
+MARKDOWN
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
