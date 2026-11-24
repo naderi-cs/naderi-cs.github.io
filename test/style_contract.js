@@ -61,9 +61,24 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+for (const forbiddenPath of ["_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
+  }
+}
+
+if (exists("_includes")) {
+  const allowedSiteIncludes = new Set(["_includes/cv/render.liquid"]);
+  const listFiles = (directory) =>
+    fs.readdirSync(path.join(root, directory), { withFileTypes: true }).flatMap((entry) => {
+      const entryPath = path.join(directory, entry.name);
+      return entry.isDirectory() ? listFiles(entryPath) : [entryPath.split(path.sep).join("/")];
+    });
+
+  for (const includePath of listFiles("_includes")) {
+    if (!allowedSiteIncludes.has(includePath)) {
+      failures.push(`Starter must not own core component path \`${includePath}\`; move ownership to the corresponding gem.`);
+    }
   }
 }
 
