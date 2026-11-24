@@ -1,10 +1,11 @@
 cv:
   name: Abolfazl Naderi
-  label: Computer Science Student · Developer · System Administrator
+  label: Computer Science Student
   email: a.naderiii44@gmail.com
-  location: Bushehr Province, Iran
+  location: Bushehr County, Bushehr Province, Iran
+  website: https://naderi-cs.github.io
   image: ""
-  summary: Computer Science undergraduate with interests in artificial intelligence, computer systems, software engineering, and algorithms. Experienced in teaching foundational computer science and working with reliable infrastructure.
+  summary: Computer Science graduate with interests in artificial intelligence, computer systems, software engineering, and algorithms. Currently pursuing a master's degree in Artificial Intelligence and experienced in teaching foundational computer science and managing reliable infrastructure.
 
   social_networks:
     - network: LinkedIn
@@ -12,16 +13,18 @@ cv:
 
   sections:
     Education:
+      - institution: Persian Gulf University
+        area: Artificial Intelligence
+        studyType: Master of Science
+        start_date: 2026-09
+
       - institution: Vali-e-Asr University of Rafsanjan
-        location: Rafsanjan, Iran
+        location: Rafsanjan, Kerman Province, Iran
         area: Computer Science
         studyType: Bachelor of Science
-        start_date: 2022
-        end_date: 2026
+        start_date: 2022-09
+        end_date: 2026-09
         score: "GPA: 17.98/20.00 · Specialized courses: 19.01/20.00"
-        highlights:
-          - Ranked 1st among Computer Science students in the sixth-semester cohort (entry year 2022).
-          - Competitive Programming — member of the university ICPC team (2024–2025).
 
     Experience:
       - company: Self-employed
@@ -29,8 +32,6 @@ cv:
         location: Remote
         start_date: 2023-01
         end_date: Present
-        highlights:
-          - Maintain system health and manage network infrastructure for clients.
 
       - company: Vali-e-Asr University of Rafsanjan
         position: Head Teaching Assistant
@@ -38,18 +39,16 @@ cv:
         start_date: 2023-09
         end_date: 2026-02
         highlights:
-          - "Principles of Computer Systems (Fall 2025): supported students with core systems concepts, collaborated with the instructor on course delivery, and evaluated assignments."
-          - "Data Structures and Algorithms (Fall 2024): facilitated problem-solving sessions and assessed programming assignments."
-          - "Advanced Programming (Spring 2024): guided students through advanced paradigms and software development practices; conducted code reviews."
-          - "Basics of Computer Programming (Fall 2023): designed assignments and projects and provided personalized feedback."
+          - "Head Teaching Assistant — Basics of Computer Programming (Fall 2023). Course instructor: Dr. Mohammad Reza Heydarian. Designed challenging assignments and projects to reinforce fundamental programming concepts; led classroom problem-solving sessions to demonstrate homework solutions and best practices; evaluated submissions and gave personalized feedback to improve coding skills."
+          - "Head Teaching Assistant — Advanced Programming (Spring 2024). Course instructor: Dr. Seyyed Jalal Seyyedzadeh; team of 2 TAs. Guided students through advanced programming paradigms and software development practices, conducted code review sessions to support student projects, and coordinated with the other TA and instructor to ensure comprehensive course coverage."
+          - "Head Teaching Assistant — Data Structures and Algorithms (Fall 2024). Course instructor: Dr. Fahimeh Dabaghi-Zarandi; team of 2 TAs. Facilitated understanding of complex algorithmic concepts through problem-solving sessions and assessed assignments with detailed feedback on code quality and efficiency."
+          - "Head Teaching Assistant — Principles of Computer Systems (Fall 2025). Course instructor: Dr. Seyyed Jalal Seyyedzadeh. Supported students in understanding core computer system concepts and architectures, collaborated with the instructor on course support, and evaluated assignments with constructive feedback."
 
       - company: Scientific Association of Computer Science
-        position: Head of the Association
+        position: Head of the Scientific Association of Computer Science
         location: Rafsanjan, Iran
         start_date: 2023-09
         end_date: 2025-08
-        highlights:
-          - Led academic activities for the Computer Science student body.
 
     Volunteering:
       - company: OpenStreetMap Foundation
@@ -61,7 +60,10 @@ cv:
           - Contribute geospatial data to the world's largest open-access mapping database.
 
     Skills:
-      - name: Languages
-        keywords: "Java, Python, Go, Bash, RISC-V, SQL"
-      - name: Tools
-        keywords: "Git, Docker, Ansible, Grafana, HAProxy, Nginx, PostgreSQL, SQLite, Jupyter, LaTeX, Markdown, Obsidian"
+      - name: Top Skills
+        keywords: "Unit Testing, FastAPI, JavaScript"
+
+    Certificates:
+      - name: Machine Learning Specialization
+      - name: ICPC ID
+      - name: Foundational Cloud Practitioner
