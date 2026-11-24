@@ -42,6 +42,7 @@ cv:
         end_date: 2026-02
 
       - position: Basics of Computer Programming (Fall 2023)
+        company: Vali-e-Asr University of Rafsanjan
         summary: "Course Instructor: Dr. Mohamad Reza Heydarian"
         highlights:
           - Designed programming assignments and projects.
@@ -49,6 +50,7 @@ cv:
           - Evaluated submissions and provided feedback.
 
       - position: Advanced Programming (Spring 2024)
+        company: Vali-e-Asr University of Rafsanjan
         summary: "Course Instructor: Dr. Seyyed Jalal Seyyedyazdi | Team: 3 TAs"
         highlights:
           - Mentored students in advanced programming.
@@ -56,6 +58,7 @@ cv:
           - Coordinated teaching activities.
 
       - position: Data Structures and Algorithms (Fall 2024)
+        company: Vali-e-Asr University of Rafsanjan
         summary: "Course Instructor: Dr. Fahimeh Dabaghi-Zarandi | Team: 2 TAs"
         highlights:
           - Led algorithmic problem-solving sessions.
@@ -63,6 +66,7 @@ cv:
           - Provided technical feedback.
 
       - position: Principles of Computer Systems (Fall 2025)
+        company: Vali-e-Asr University of Rafsanjan
         summary: "Course Instructor: Dr. Seyyed Jalal Seyyedyazdi"
         highlights:
           - Supported students in computer systems and architecture.
